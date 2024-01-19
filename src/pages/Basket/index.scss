@@ -1,0 +1,33 @@
+.basketPage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .cards {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    .card {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+      tr {
+        text-align: left;
+        padding: 8px;
+        width: 1000px;
+        border-collapse: collapse;
+        display: flex;
+        align-items: center;
+        gap: 60px;
+      }
+      img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+      }
+    }
+  }
+}

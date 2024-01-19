@@ -1,0 +1,99 @@
+.aboutTasty {
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+  .aboutTastyAll {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    .left {
+      max-width: 570px;
+      min-height: 659px;
+      .image {
+        max-width: 570px;
+        min-height: 659px;
+      }
+    }
+    .right {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 570px;
+        justify-content: center;
+        align-items: center;
+      .name {
+        color: #8b8b92;
+        font-size: 15px;
+        letter-spacing: 1.6px;
+      }
+      .head {
+        font-size: 25px;
+        color: black;
+        max-width: 300px;
+      }
+      .about {
+        color: #8b8b92;
+        font-size: 18px;
+        max-width: 350px;
+        
+
+      }
+      .text {
+        color: #8b8b92;
+        font-size: 18px;
+        max-width: 350px;
+
+      }
+    }
+  }
+}
+@media screen and (max-width: 1100px) {
+    .aboutTastyAll {
+display: flex;
+flex-direction: column;
+text-align: center;
+.head{
+    margin: auto;
+}
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+   .left{
+    .image {
+        width: 370px;
+        height: 459px;
+        img{
+            width: 370px;
+            height: 459px !important;
+        }
+            }
+   }
+  }
+  @media screen and (max-width: 500px) {
+    .left{
+     .image {
+         width: 270px;
+         height: 359px;
+         img{
+             width: 270px;
+             height: 359px !important;
+         }
+             }
+    }
+   }
+
+   @media screen and (max-width: 350px) {
+    .left{
+     .image {
+         width: 170px;
+         height: 259px;
+         img{
+             width: 170px;
+             height: 259px !important;
+         }
+             }
+    }
+   }
+ 

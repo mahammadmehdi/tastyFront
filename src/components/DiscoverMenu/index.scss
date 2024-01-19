@@ -1,0 +1,104 @@
+.discoverMenu {
+  margin-top: 5%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  .discoverMenuAll {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    .name {
+      color: #00000075;
+      font-size: 12px;
+      line-height: 27px;
+      letter-spacing: 1px;
+    }
+    .head {
+      font-size: 34px;
+      color: #404044;
+      
+    }
+    .menu {
+        display: flex;
+        gap: 20px;
+      .main {
+        background-color: #ffb400;
+        width: 114px;
+        height: 73px;
+        color: #404044;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+      }
+      .desert {
+        width: 136px;
+        height: 73px;
+        color: #a5a5ab;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+      }
+      .drinks {
+        width: 120px;
+        height: 73px;
+        color: #a5a5ab;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10PX;
+      }
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 50px;
+      justify-content: center;
+      .pages {
+        width: 540px;
+        height: 100px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        display: flex;
+        gap: 20px;
+        padding: 3%;
+        align-items: center;
+        .image {
+          img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+          }
+        }
+        .nameDesc {
+          display: flex;
+          flex-direction: column;
+          .desc{
+            color: #8b8b92;
+          }
+          .name{
+            color: #404044;
+            font-size: 18px;
+          }
+        }
+        .price{
+            color: #404044;
+            font-size: 30px;
+            padding-right: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+    .menu {
+      display: flex;
+      flex-direction: column;
+    }
+  }

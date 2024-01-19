@@ -1,0 +1,83 @@
+.satisfedGuests {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  .satisfedGuestsAll {
+    max-width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    .name {
+      font-size: 12px;
+      color: #0000007e;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+    .head {
+      font-size: 34px;
+      color: #404044;
+    }
+    .cards {
+      
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding-top: 5%;
+      justify-content: center;
+      
+      .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        max-width: 360px;
+      min-height: 347px;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      padding-top: 10%;
+        .imagePerson {
+            position: absolute;
+            top: -15%;
+            img{
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+            }
+        }
+        .icons {
+            display: flex;
+            gap: 5px;
+            i{
+                color: #ffb400;
+                font-size: 12px;
+            }
+        }
+        .desc {
+          max-width: 310px;
+          font-size: 16px;
+          color: #8b8b92;
+          text-align: center;
+        }
+        .person {
+          display: flex;
+          flex-direction: column;
+          align-items:center ;
+          gap: 20px;
+          .name {
+            color: #404044;
+            font-size: 16px;
+          }
+          .guest {
+            font-size: 13px;
+            color: #c0c0c3;
+          }
+        }
+      }
+    }
+  }
+}
